@@ -60,3 +60,24 @@ function isNotZero(num) {
 }
 
 console.log(isNotZero(0))
+
+// Q10. Calculate the remainder
+function calcRemainder(num1, num2) {
+  return num1 % num2
+}
+
+console.log(calcRemainder(10, 9))
+
+// Q11. Is the number odd?
+function isOdd(num) {
+  return num % 2 !== 0
+}
+
+console.log(isOdd(2))
+
+// Q12. If a number is even, return 1 otherwise return -1
+function booleanInteger(num) {
+  return num % 2 === 0 ? 1 : -1
+}
+
+console.log(booleanInteger(2))
