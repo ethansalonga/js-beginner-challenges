@@ -81,3 +81,17 @@ function booleanInteger(num) {
 }
 
 console.log(booleanInteger(2))
+
+// Q13. Check if a user is logged in AND subscribed
+function isLoggedInAndSubscribed(loggedIn, subscribed) {
+  return loggedIn === "LOGGED_IN" && subscribed === "SUBSCRIBED"
+}
+
+console.log(isLoggedInAndSubscribed("LOGGED_IN", "SUBSCRIBED"))
+
+// Q14. Check if a user is logged in OR subscribed
+function isLoggedInOrSubscribed(loggedIn, subscribed) {
+  return loggedIn === "LOGGED_IN" || subscribed === "SUBSCRIBED"
+}
+
+console.log(isLoggedInOrSubscribed("LOGGED_IN", "UNSUBSCRIBED"))
