@@ -33,9 +33,30 @@ function appendFrontend(string) {
 
 console.log(appendFrontend("Apple"))
 
-// Q6. Great than 100?
+// Q6. Greater than 100?
 function sumGreaterThan100(num1, num2) {
   return num1 + num2 > 100
 }
 
 console.log(sumGreaterThan100(10, 20))
+
+// Q7. Less than or Equal to Zero?
+function lessThanOrEqualToZero(num) {
+  return num <= 0
+}
+
+console.log(lessThanOrEqualToZero(0))
+
+// Q8. Opposite boolean
+function oppositeBoolean(bool) {
+  return !bool
+}
+
+console.log(oppositeBoolean(false))
+
+// Q9. Is not the number 0
+function isNotZero(num) {
+  return num !== 0
+}
+
+console.log(isNotZero(0))
